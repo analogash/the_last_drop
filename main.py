@@ -1,11 +1,9 @@
 import time
 import os
 import platform
+from utils import say
+from utils import clear_terminal
 from character import create_character
-
-def clear_terminal():
-    command = 'cls' if platform.system() == 'Windows' else 'clear'
-    os.system(command)
 
 def main():
     clear_terminal()
