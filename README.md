@@ -1,6 +1,6 @@
 # 🧪 The Last Drop
 
-*A cozy, terminal-based potion-making game with a twist.*
+*A cozy, terminal-based potion-making game.*
 
 ---
 
