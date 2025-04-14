@@ -1,0 +1,23 @@
+import time
+
+def create_character():
+    print("Welcome to my shop, darling...")
+    time.sleep(1)
+    print("You must be the new apprentice I was expecting!\n")
+    time.sleep(1)
+    print("Tell me, what was your name again?")
+    name = input("> ")
+    time.sleep(1)
+    print(f"\nOh of course, pleasure to meet you {name}!")
+    time.sleep(1)
+    print("\nForgive me, I have been a bit scatter-brained lately. \nTruth be told, I could really use an extra pair of hands around here.")
+    time.sleep(1)
+    print("...")
+    time.sleep(1)
+    print(f"Now then, {name}... Tell me a little about your past, were you:\n")
+    time.sleep(1)
+    print("A:  A Wandering Orphan")
+    print("B:  A Forest Child")
+    print("C:  A Noble Dropout")
+    print("D:  Quiet Scholar")
+    background = input("> ")
