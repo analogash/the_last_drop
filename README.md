@@ -10,7 +10,7 @@
 
 Expect:
 - Character creation
-- A 1–2 week in-game cycle
+- A week in the shop.
 - Daily tasks and customers
 - Simple potion crafting
 
