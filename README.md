@@ -8,7 +8,7 @@
 
 **The Last Drop** is a small, text-based RPG where you play as an apprentice learning the gentle art of potion-making in a sleepy, magical town. The game runs in the terminal and is being built as my first solo Python project.
 
-Expect:
+TODO:
 - Character creation
 - A week in the shop.
 - Daily tasks and customers

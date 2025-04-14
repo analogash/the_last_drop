@@ -13,7 +13,7 @@ def create_character():
     say(f"\nOh of course, pleasure to meet you {name}!")
     say("\nForgive me, I have been a bit scatter-brained lately.", 2)
     say("Truth be told, I could really use an extra pair of hands around here.")
-    say("...", 2)
+    say("...\n", 2)
 
     say(f"So, {name}, tell me a little about your past.")
     say("I heard you were:\n", 0)
@@ -44,7 +44,7 @@ def create_character():
         "A Wandering Orphan": f"That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
         "A Forest Child": "How wonderful! Nature can teach us more than any book. You will love it here.",
         "A Noble Dropout": "A noble background, and yet here you are to help me. How intriguing!",
-        "Quiet Scholar": "A quiet scholar, hm? I’m sure you’ll find the study of potions fascinating."
+        "Quiet Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
     }
     
     say(background_reply[character["background"]], 2)
