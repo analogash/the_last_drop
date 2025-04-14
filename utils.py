@@ -1,4 +1,6 @@
 import time
+import os
+import platform
 
 def say(text, delay=1):
     print(text)

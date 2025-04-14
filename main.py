@@ -1,6 +1,4 @@
 import time
-import os
-import platform
 from utils import say
 from utils import clear_terminal
 from character import create_character
