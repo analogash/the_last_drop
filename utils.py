@@ -11,13 +11,8 @@ def clear_terminal():
     os.system(command)
 
 def multiple_choice(a, b, c, d):
-    say(f"A:  {a}", 0)
-    say(f"B:  {b}", 0)
-    say(f"C:  {c}", 0)
-    say(f"D:  {d}", 0)
-
     while True:
-        choice = input("> ").strip().upper()
+        choice = input("\n> ").strip().upper()
         if choice == "A":
             return a
         elif choice == "B":
