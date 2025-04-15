@@ -1,6 +1,5 @@
 import time
-from utils import say
-from utils import clear_terminal
+from utils import say, clear_terminal
 from character import create_character
 
 def main():
