@@ -32,7 +32,7 @@ def create_character():
     background = character["background"]
     time.sleep(1)
 
-    say(dialog["backgrounds"][character["background"]]["intro"], 3)
+    say(dialog["backgrounds"][character["background"]]["intro"].format(name=name), 3)
 
     say(dialog["static"]["ask_traits"], 2)
     say("\nTraits: \n")
