@@ -24,8 +24,6 @@ def create_character():
     say(dialog["intro"]["ask_background"].format(name=name), 2)
     say(dialog["intro"]["background_options"][0])
     say(dialog["intro"]["background_options"][1])
-    #say(dialog["intro"]["background_options"][2])
-    #say(dialog["intro"]["background_options"][3])
 
     character["background"] = multiple_choice(
         A="Orphan",
