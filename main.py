@@ -4,9 +4,8 @@ from character import create_character
 
 def main():
     clear_terminal()
-    print("======== The Last Drop ========\n")
-    time.sleep(1)
-    create_character()
+    say("======== The Last Drop ========\n")
+    character = create_character()
 
 if __name__ == "__main__":
     main()

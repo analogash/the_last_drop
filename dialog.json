@@ -1,5 +1,5 @@
 {
-    "static": {
+    "intro": {
         "welcome": "Welcome to my shop, darling...",
         "apprentice_intro": "You must be the new apprentice I was expecting!\n",
         "ask_name": "Tell me, what was your name again?",
@@ -13,48 +13,50 @@
             "C:  Noble Dropout",
             "D:  Quiet Scholar"
         ],
-        "ask_traits": "\nI am curious however, what makes you think you'll be good at this job?",
+        "ask_traits": "\nI am curious however, what makes you think you'll be good at this job?\n\nTraits:",
         "trait_options": [
             "A:  Confident, decisive, and inspiring.",
             "B:  Compassionate, nurturing, and selfless.",
             "C:  Bold, independent, and disruptive.",
-            "D:  Analytical, wise, and strategic."
+            "D:  Analytical, wise, and strategic." 
         ]
     },
     "backgrounds": {
+        "Wandering Orphan": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
+        "Forest Child": "How wonderful! Nature can teach us more than any book. You will love it here.",
+        "Noble Dropout": "A noble background, and yet here you are to help me. I am honored!",
+        "Quiet Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
+    },
+    "traits": {
         "Wandering Orphan": {
-            "intro": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
-            "confident": "That fire in your step tells me you’ve always made your own way.",
+            "confident": "That fire in your step tells me you’re gonna go far!",
             "compassionate": "All that hardship, yet your heart stayed soft. That’s real strength, {name}.",
-            "bold": "Life didn’t give you a path, so you made your own—with a bang, I imagine.",
-            "analytical": "Surviving on your own teaches strategy like no book ever could."
+            "bold": "Life didn’t give you a path, so you made your own... with a bang, I imagine!",
+            "analytical": "I imagine surviving on your own teaches strategy like no book ever could."
         },
         "Forest Child": {
-            "intro": "How wonderful! Nature can teach us more than any book. You will love it here.",
-            "confident": "The wild raised you well—steady hands and a fearless heart.",
-            "compassionate": "You carry the gentleness of moss and the patience of roots.",
-            "bold": "Forest-born and rule-averse—you’re as wild as the wind through the leaves.",
-            "analytical": "Nature is the greatest teacher, and it clearly taught you well."
+            "confident": "The wild raised you well, steady hands and a fearless heart!",
+            "compassionate": "You carry the gentleness of moss and the patience of trees.",
+            "bold": "Forest-born and rule-averse, you’re as wild as the wind through the leaves.",
+            "analytical": "Ah, the patterns you can find in the woods are truly inspiring."
         },
         "Noble Dropout": {
-            "intro": "A noble background, and yet here you are to help me. I am honored!",
             "confident": "Leaving comfort behind takes guts—seems you didn’t just inherit confidence, you earned it.",
             "compassionate": "Rare is the noble who trades gold for kindness. You might just be the real thing.",
             "bold": "Disrupting legacy with your own will? Now that’s alchemy.",
             "analytical": "You left the banquet to chase knowledge—clever move, {name}."
         },
         "Quiet Scholar": {
-            "intro": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating.",
             "confident": "You may not speak much, but when you do, people listen.",
             "compassionate": "You study people as much as books, don’t you? That heart of yours is well-read.",
             "bold": "I bet you were the type to question the teacher more than the test.",
             "analytical": "With a mind like that, potions are just puzzles waiting to be solved."
         }
-    },
-    "traits": {
-        "confident": "Confidence like that can move mountains... or stir very stubborn mixtures.",
-        "compassionate": "A gentle soul. This shop could use more kindness like yours!",
-        "bold": "Oho! A rebel in the making—I like that spark in your eye.",
-        "analytical": "Wisdom and patience forge the finest potions!"
     }
 }
+
+
+
+
+
+
