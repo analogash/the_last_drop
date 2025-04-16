@@ -2,7 +2,7 @@ import time
 import os
 import platform
 
-def say(text, delay=1):
+def say(text, delay=0):
     print(text)
     time.sleep(delay)
 
@@ -12,7 +12,8 @@ def clear_terminal():
 
 def multiple_choice(a, b, c, d):
     while True:
-        choice = input("\n> ").strip().upper()
+        choice = input("\n" + "-" * 55 + "\n> ").strip().upper()
+        say("-" * 55 + "\n")
         if choice == "A":
             return a
         elif choice == "B":

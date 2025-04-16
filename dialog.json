@@ -3,9 +3,9 @@
         "welcome": "Welcome to my shop, darling...",
         "apprentice_intro": "You must be the new apprentice I was expecting!\n",
         "ask_name": "Tell me, what was your name again?",
-        "hello_name": "\nOh of course, pleasure to meet you {name}!",
+        "hello_name": "Oh of course, pleasure to meet you, {name}!",
         "scatter_brain": "\nForgive me, I have been a bit scatter-brained lately.",
-        "need_help": "Truth be told, I could really use an extra pair of hands around here.",
+        "need_help": "Truth be told, I could really use an extra pair of hands around here.\n",
         "ask_background": "So {name}, tell me a little about your past. I heard you were a:\n",
         "background_options": [
             "A:  Wandering Orphan",
@@ -13,13 +13,14 @@
             "C:  Noble Dropout",
             "D:  Quiet Scholar"
         ],
-        "ask_traits": "\nI am curious however, what makes you think you'll be good at this job?\n\nTraits:",
+        "ask_traits": "\nI am curious, though - what makes you think you'll be good at this job?",
         "trait_options": [
             "A:  Confident, decisive, and inspiring.",
             "B:  Compassionate, nurturing, and selfless.",
             "C:  Bold, independent, and disruptive.",
             "D:  Analytical, wise, and strategic." 
-        ]
+        ],
+        "trait_response": "Ahh, I see..."
     },
     "backgrounds": {
         "Wandering Orphan": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
@@ -38,7 +39,7 @@
             "confident": "The wild raised you well, steady hands and a fearless heart!",
             "compassionate": "You carry the gentleness of moss and the patience of trees.",
             "bold": "Forest-born and rule-averse, you’re as wild as the wind through the leaves.",
-            "analytical": "Ah, the patterns you can find in the woods are truly inspiring."
+            "analytical": "The patterns you can find in the woods are truly inspiring."
         },
         "Noble Dropout": {
             "confident": "Leaving comfort behind takes guts—seems you didn’t just inherit confidence, you earned it.",
