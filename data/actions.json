@@ -1,0 +1,26 @@
+{
+    "intro_look": {
+        "Orphan": [
+            "    *A fire hazard, maybe. But at least it's warm.*\n",
+            "    *Warm, but cluttered. A place with many stories,\n                and not enough shelves.*\n",
+            "    *Doesn’t smell like damp straw or burnt boots. \n            That’s already an improvement.*\n"],
+        "Forest": [
+            "    *It’s chaos — but it smells like lavender,\n          honey, and good intentions.*\n",
+            "    *There’s a little sprig of lavender in that jar. \n                It’s trying to escape.*\n",
+            "    *Herbs strung from the ceiling like vines\n         cosy, in their own droopy way.*\n"],
+        "Noble": [
+            "    *No symmetry, no staff, no polish...\n       somehow, you don’t hate it.*\n",
+            "    *A little elbow grease and this place could shine...\n                 not that it needs to.*\n",
+            "           *A disaster of a layout,\n   but I suppose that’s part of the charm.*\n"],
+        "Scholar": [
+            "                   *If you spent a year here,\n     you might still not know what’s in half these bottles.*\n",
+            "    *So many scrolls. So many questions.\n         Where do you even start?*\n",
+            "    *It’s a mess — but it’s a mess that speaks to you.*\n"]
+    },
+    "intro_go": {
+        "Orphan": "[TEST MESSAGE]",
+        "Forest": "[TEST MESSAGE]",
+        "Noble": "[TEST MESSAGE]",
+        "Scholar": "[TEST MESSAGE]"
+    }
+}

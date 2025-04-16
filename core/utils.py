@@ -7,7 +7,7 @@ def say(text, delay=0):
     time.sleep(delay)
 
 def narrate(text, delay=0):
-    print(f"\033[3m{text}\033[0m")  # Italic-style with ANSI
+    print(f"\033[3m{text}\033[0m")
     time.sleep(delay)
 
 def clear_terminal():
@@ -17,9 +17,9 @@ def clear_terminal():
 def multiple_choice(**options):
     valid_choices = {key.upper(): value for key, value in options.items()}
     while True:
-        say("\n" + "-" * 55)
+        say("\n" + "-" * 67)
         choice = input("> ").strip().upper()
-        say("-" * 55 + "\n")
+        say("-" * 67 + "\n")
 
         # Validate and return the choice
         if choice in valid_choices:
