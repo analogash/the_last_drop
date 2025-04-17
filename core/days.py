@@ -38,7 +38,7 @@ def day_zero(character):
             narrate(actions["herbs_look"][character["background"]], 3)
 
         if choice_2 is "collect":
-            say(actions["herbs_collect"][character["background"]], 4)
+            narrate(actions["herbs_collect"][character["background"]], 4)   # TODO: Refactor say() or json to handle pacing
 
         if choice_2 is "go":
             break

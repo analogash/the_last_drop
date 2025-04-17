@@ -6,13 +6,22 @@ def say(text, delay=0):
     print(text)
     time.sleep(delay)
 
+
 def narrate(text, delay=0):
-    print(f"\033[3m{text}\033[0m")
+    width = 67
+    lines = text.split("\n")
+
+    for line in lines:
+        centered_line = line.center(width)
+        print(f"\033[3m{centered_line}\033[0m")
+
     time.sleep(delay)
+
 
 def clear_terminal():
     command = 'cls' if platform.system() == 'Windows' else 'clear'
     os.system(command)
+
 
 def multiple_choice(**options):
     valid_choices = {key.upper(): value for key, value in options.items()}

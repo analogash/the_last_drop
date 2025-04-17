@@ -1,21 +1,21 @@
 {
     "intro_look": {
         "Orphan": [
-            "    *A fire hazard, maybe. But at least it's warm.*\n",
-            "    *Warm, but cluttered. A place with many stories,\n                and not enough shelves.*\n",
-            "    *Doesn’t smell like damp straw or burnt boots. \n            That’s already an improvement.*\n"],
+            "* A fire hazard, maybe. But at least it's warm. *\n",
+            "* Warm, but cluttered.\nA place with many stories, and not enough shelves. *\n",
+            "* Doesn’t smell like damp straw or burnt boots,\nthat’s already an improvement. *\n"],
         "Forest": [
-            "    *It’s chaos — but it smells like lavender,\n          honey, and good intentions.*\n",
-            "    *There’s a little sprig of lavender in that jar. \n                It’s trying to escape.*\n",
-            "    *Herbs strung from the ceiling like vines\n         cosy, in their own droopy way.*\n"],
+            "* It’s chaos — but it smells like lavender,\nhoney, and good intentions. *\n",
+            "* There’s a little sprig of lavender in that jar. \nIt’s trying to escape. *\n",
+            "* Herbs strung from the ceiling like vines\ncosy, in their own droopy way. *\n"],
         "Noble": [
-            "    *No symmetry, no staff, no polish...\n       somehow, you don’t hate it.*\n",
-            "    *A little elbow grease and this place could shine...\n                 not that it needs to.*\n",
-            "           *A disaster of a layout,\n   but I suppose that’s part of the charm.*\n"],
+            "* No symmetry, no staff, no polish...\nsomehow, you don’t hate it. *\n",
+            "* A little elbow grease and this place could shine...\nnot that it needs to. *\n",
+            "* A disaster of a layout,\nbut I suppose that’s part of the charm. *\n"],
         "Scholar": [
-            "                  *If you spent a year here,\n     you still would not know what’s in half these bottles.*\n",
-            "    *So many scrolls. So many questions.\n         Where do you even start?*\n",
-            "    *It’s a mess — but it’s a mess that speaks to you.*\n"]
+            "* If you spent a year here,\nyou still would not know what’s in half these bottles. *\n",
+            "* So many scrolls. So many questions.\nWhere do you even start? *\n",
+            "* It’s a mess — but it’s a mess that speaks to you. *\n"]
     },
     "intro_go": {
         "Orphan": [
@@ -42,15 +42,15 @@
         "B:  Collect Herbs    C:  Go Inside"
     ],
     "herbs_look": {
-        "Orphan": "             *You glance up at clotheslines\n    crosssing the rooftops like makeshift bridges.*",
-        "Forest": "                 *The squirrel is gone. \n    In its place: a single acorn, perfectly balanced.*",
-        "Noble": "    *A street vendor is shouting about bread prices down the road.\n                      Uncouth, but effective.*",
-        "Scholar": "    *A smear of ink stains one label,\n    you note it for later correction.*"
+        "Orphan": "* You glance up at clotheslines,\nthey cross the rooftops like makeshift bridges. *",
+        "Forest": "* The squirrel is gone.\nIn its place: a single acorn, perfectly balanced. *",
+        "Noble": "* A street vendor is shouting about bread prices down the road.\nUncouth, but effective. *",
+        "Scholar": "* A smear of ink stains one label,\nyou note it for later correction. *"
     },
     "herbs_collect": {
-        "Orphan": "You lift the bundle, coarse burlap scratches your palms. A sprig of rosemary falls loose and you catch it midair, grinning. Still got it.",
-        "Forest": "You press your nose to a bunch of mint before lifting it. The scent lingers like sunlight. You hum softly as you work.",
-        "Noble": "You pick up the bundle carefully, lifting as if it might crumble. Your hands were trained for ink and etiquette, not burlap and earth — but it’s not so bad. Practicality has its own elegance.",
-        "Scholar": "You pause, mid-lift, wondering how long ago these were picked. The tag says yesterday. The wilted edges disagree."
+        "Orphan": "You lift the bundle, coarse burlap scratches your palms.\nA sprig of rosemary falls loose and you catch it midair, grinning.\nStill got it.",
+        "Forest": "You press your nose to a bunch of mint before lifting it.\nThe scent lingers like sunlight.\nYou hum softly as you work.",
+        "Noble": "You pick up the bundle carefully, lifting as if it might crumble.\nYour hands were trained for ink and etiquette, not burlap and earth...\nbut it’s not so bad. Practicality has its own elegance.",
+        "Scholar": "You pause, mid-lift, wondering how long ago these were picked.\nThe tag says yesterday.\nThe wilted edges disagree."
     }
 }
