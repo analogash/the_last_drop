@@ -13,21 +13,39 @@
             "    *A little elbow grease and this place could shine...\n                 not that it needs to.*\n",
             "           *A disaster of a layout,\n   but I suppose that’s part of the charm.*\n"],
         "Scholar": [
-            "                   *If you spent a year here,\n     you might still not know what’s in half these bottles.*\n",
+            "                  *If you spent a year here,\n     you still would not know what’s in half these bottles.*\n",
             "    *So many scrolls. So many questions.\n         Where do you even start?*\n",
             "    *It’s a mess — but it’s a mess that speaks to you.*\n"]
     },
     "intro_go": {
-        "Orphan": "The cobblestones are cracked and uneven, the kind you learn to step lightly on. The street out front is quiet, but your eyes still scan it out of habit — looking for places to hide or slip away. A cart sits by the gate, piled high with herbs wrapped in rough burlap. No one's guarding it. Strange, how people just leave things out here.",
-        "Forest": "The air outside is drier than the woods you're used to, but there's still life humming in it — birds nesting under awnings, bees lazily drifting past flower pots. The herb cart smells like home: crushed mint, damp moss, sun-warmed stems. A squirrel watches you from a rooftop like it's sizing you up. You nod at it, just in case.",
-        "Noble": "You step outside and wrinkle your nose at the dust. The cart is a jumble of crates and burlap — not a servant in sight. Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos. You pause, almost amused. This is your life now? You could get used to it.",
-        "Scholar": "The smell of chamomile and crushed sage wafts from the cart before you even reach it. Labels curl at the corners, hastily inked. You make a mental note to categorize them later. The world outside the shop is quieter than expected—ripe with small details waiting to be read."
+        "Orphan": [
+            "The cobblestones are cracked and uneven, the kind you learn to step lightly on.",
+            "\nThe street out front is quiet, but your eyes still scan it out of habit, \n  looking for places to hide or slip away.",
+            "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.",
+            "No one's guarding it. Strange, how people just leave things out here."],
+        "Forest": [
+            "The air outside is drier than the woods you're used to, but there's still life humming in it.",
+            "You see birds nesting under awnings, and bees lazily drifting past flower pots.",
+            "\nThe herb cart smells like home; crushed mint, damp moss, sun-warmed stems.",
+            "\nA squirrel watches you from a rooftop like it's sizing you up.",
+            "You nod at it, just in case."],
+        "Noble": ["You step outside and wrinkle your nose at the dust.",
+        "\nThe cart is a jumble of crates and burlap — not a servant in sight.",
+        "Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos.",
+        "\nYou pause, almost amused. This is your life now? You could get used to it."],
+        "Scholar": ["The smell of chamomile and crushed sage wafts from the cart before you even reach it.",
+        "\nLabels curl at the corners, hastily inked. You make a mental note to categorize them later.",
+        "\nThe world outside the shop is quieter than expected — ripe with small details."]
     },
+    "herb_look_options" : [
+        "\nA:  Look Around",
+        "B:  Collect Herbs    C:  Go Inside"
+    ],
     "herbs_look": {
-        "Orphan": "You glance up — clotheslines cross the rooftops like makeshift bridges. Useful.",
-        "Forest": "The squirrel is gone. In its place: a single acorn, perfectly balanced.",
-        "Noble": "A street vendor is shouting about bread prices down the road. Uncouth, but effective.",
-        "Scholar": "A smear of ink stains one label. You note it for later correction."
+        "Orphan": "             *You glance up at clotheslines\n    crosssing the rooftops like makeshift bridges.*",
+        "Forest": "                 *The squirrel is gone. \n    In its place: a single acorn, perfectly balanced.*",
+        "Noble": "    *A street vendor is shouting about bread prices down the road.\n                      Uncouth, but effective.*",
+        "Scholar": "    *A smear of ink stains one label,\n    you note it for later correction.*"
     },
     "herbs_collect": {
         "Orphan": "You lift the bundle, coarse burlap scratches your palms. A sprig of rosemary falls loose and you catch it midair, grinning. Still got it.",
