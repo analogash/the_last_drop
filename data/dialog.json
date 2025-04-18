@@ -56,15 +56,15 @@
         }
     },
 
-    "day_zero": {
-        "intro": "\nI think you'll fit in here just fine, {name}.",
-        "lets_go": "\nWell, It's time to get this show on the road!",
-        "go_get": "I need you to go out front and pick up the herb delivery for me.\n",
-        "1st_choice":[
+    "zero_intro": [
+        {"text": "\nI think you'll fit in here just fine, {name}.", "delay":  3},
+        {"text": "\nWell, It's time to get this show on the road!", "delay": 1},
+        {"text": "I need you to go out front and pick up the herb delivery for me.\n", "delay": 3}
+    ],
+    "1st_choice":[
             "A:  Look Around",
             "B:  Go outside"
-        ]
-    },
+        ],
 
     "potions": "Oh dear. That smells like wet socks and regret. No worries, we’ll try again tomorrow."
 }

@@ -19,23 +19,25 @@
     },
     "intro_go": {
         "Orphan": [
-            "The cobblestones are cracked and uneven, the kind you learn to step lightly on.",
-            "\nThe street out front is quiet, but your eyes still scan it out of habit, \n  looking for places to hide or slip away.",
-            "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.",
-            "No one's guarding it. Strange, how people just leave things out here."],
+            {"text": "The cobblestones are cracked and uneven, the kind you learn to step lightly on.", "delay": 2},
+            {"text": "\nThe street out front is quiet, but your eyes still scan it out of habit, \n  looking for places to hide or slip away.", "delay": 3},
+            {"text": "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.", "delay": 3},
+            {"text": "No one's guarding it. Strange, how people just leave things out here.", "delay": 2}],
         "Forest": [
-            "The air outside is drier than the woods you're used to, but there's still life humming in it.",
-            "You see birds nesting under awnings, and bees lazily drifting past flower pots.",
-            "\nThe herb cart smells like home; crushed mint, damp moss, sun-warmed stems.",
-            "\nA squirrel watches you from a rooftop like it's sizing you up.",
-            "You nod at it, just in case."],
-        "Noble": ["You step outside and wrinkle your nose at the dust.",
-        "\nThe cart is a jumble of crates and burlap — not a servant in sight.",
-        "Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos.",
-        "\nYou pause, almost amused. This is your life now? You could get used to it."],
-        "Scholar": ["The smell of chamomile and crushed sage wafts from the cart before you even reach it.",
-        "\nLabels curl at the corners, hastily inked. You make a mental note to categorize them later.",
-        "\nThe world outside the shop is quieter than expected — ripe with small details."]
+            {"text": "The air outside is drier than the woods you're used to, but there's still life humming in it.", "delay": 4},
+            {"text": "You see birds nesting under awnings, and bees lazily drifting past flower pots.", "delay": 3},
+            {"text": "\nThe herb cart smells like home; crushed mint, damp moss, and sun-warmed stems.", "delay": 3},
+            {"text": "\nA squirrel watches you from a rooftop like it's sizing you up.", "delay": 4},
+            {"text": "You nod at it, just in case.", "delay": 3}],
+        "Noble": [
+            {"text": "You step outside and wrinkle your nose at the dust.", "delay": 2},
+            {"text": "\nThe cart is a jumble of crates and burlap — not a servant in sight.", "delay": 3},
+            {"text": "Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos.", "delay": 3},
+            {"text": "\nYou pause, almost amused. This is your life now? You could get used to it.", "delay": 4}],
+        "Scholar": [
+            {"text": "The smell of chamomile and crushed sage wafts from the cart before you even reach it.", "delay": 2},
+            {"text": "Labels curl at the corners, hastily inked. You make a mental note to categorize them later.", "delay": 3},
+            {"text": "\nThe world outside the shop is quieter than expected — ripe with small details.", "delay": 3}]
     },
     "herb_look_options" : [
         "\nA:  Look Around",
@@ -48,9 +50,46 @@
         "Scholar": "* A smear of ink stains one label,\nyou note it for later correction. *"
     },
     "herbs_collect": {
-        "Orphan": "You lift the bundle, coarse burlap scratches your palms.\nA sprig of rosemary falls loose and you catch it midair, grinning.\nStill got it.",
-        "Forest": "You press your nose to a bunch of mint before lifting it.\nThe scent lingers like sunlight.\nYou hum softly as you work.",
-        "Noble": "You pick up the bundle carefully, lifting as if it might crumble.\nYour hands were trained for ink and etiquette, not burlap and earth...\nbut it’s not so bad. Practicality has its own elegance.",
-        "Scholar": "You pause, mid-lift, wondering how long ago these were picked.\nThe tag says yesterday.\nThe wilted edges disagree."
+        "Orphan": [
+            {"text": "You lift the bundle, coarse burlap scratches your palms.", "delay": 3},
+            {"text": "A sprig of rosemary falls loose and you catch it midair, grinning.", "delay": 3},
+            {"text": "\nStill got it.", "delay": 4}],
+        "Forest": [
+            {"text": "You press your nose to a bunch of mint before lifting it.", "delay": 4},
+            {"text": "\nThe scent lingers like sunlight.", "delay": 3},
+            {"text": "\nYou hum softly as you work.", "delay": 3}],
+        "Noble": [
+            {"text": "You pick up the bundle carefully, lifting as if it might crumble.", "delay": 3},
+            {"text": "\nYour hands were trained for ink and etiquette, not burlap and earth...", "delay": 4},
+            {"text": "\nbut it’s not so bad. Practicality has its own elegance.", "delay": 3}],
+        "Scholar": [
+            {"text": "You pause, mid-lift, wondering how long ago these were picked.", "delay": 4},
+            {"text": "\nThe tag says yesterday, the wilted edges disagree.", "delay": 4}]
+    },
+    "herbs_go": {
+        "Orphan":  {
+            "confident": [{"text": "", "delay": 1}],
+            "compassionate": [{"text": "", "delay": 1}],
+            "bold": [{"text": "", "delay": 1}],
+            "analytical": [{"text": "", "delay": 1}]
+        },
+        "Forest":  {
+            "confident": [{"text": "", "delay": 1}],
+            "compassionate": [{"text": "", "delay": 1}],
+            "bold": [{"text": "", "delay": 1}],
+            "analytical": [{"text": "", "delay": 1}]
+        },
+        "Noble":  {
+            "confident": [{"text": "", "delay": 1}],
+            "compassionate": [{"text": "", "delay": 1}],
+            "bold": [{"text": "", "delay": 1}],
+            "analytical": [{"text": "", "delay": 1}]
+        },
+        "Scholar":  {
+            "confident": [{"text": "", "delay": 1}],
+            "compassionate": [{"text": "", "delay": 1}],
+            "bold": [{"text": "", "delay": 1}],
+            "analytical": [{"text": "", "delay": 1}]
+        }
     }
 }

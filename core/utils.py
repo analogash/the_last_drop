@@ -35,3 +35,7 @@ def multiple_choice(**options):
             return valid_choices[choice]
         else:
             say("A curious choice... but not valid. Pick one of the available options.", 0)
+
+def read_lines(character, key, type):
+    for line in key:
+        type(line["text"].format(name=character["name"]), line["delay"])
