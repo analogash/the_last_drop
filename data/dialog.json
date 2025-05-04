@@ -16,10 +16,10 @@
         {"text": "A:  Wandering Orphan    C:  Noble Dropout", "delay": 0, "type": "say"},
         {"text": "B:  Forest Child        D:  Quiet Scholar", "delay": 0, "type": "say"}],
 "backgrounds": {
-        "Orphan": {"text":"That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way."},
-        "Forest": {"text":"How wonderful! Nature can teach us more than any book."},
-        "Noble": {"text":"A noble background, and yet here you are to help me. I am honored!"},
-        "Scholar": {"text":"A scholar, hmm? I’m sure you’ll find the study of potions fascinating."}
+        "Orphan": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
+        "Forest": "How wonderful! Nature can teach us more than any book.",
+        "Noble": "A noble background, and yet here you are to help me. I am honored!",
+        "Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
     },
 "ask_traits": [
     {"text": "\nI am curious, though - what traits make you think you'll be a fit here?\n", "delay": 2, "type": "say"},
@@ -28,6 +28,7 @@
     {"text": "C:  Bold, independent, and disruptive.", "delay": 0, "type": "say"},
     {"text": "D:  Analytical, wise, and strategic.", "delay": 0, "type": "say"}]
 },
+"trait_response": [{"text": "Ahh, I see...", "delay": 1, "type": "say"}],
 "traits": {
     "Orphan": {
         "confident": "That fire in your step tells me you’re gonna go far!",
@@ -54,11 +55,10 @@
         "analytical": "With a mind like that, potions are just puzzles waiting to be solved."
     }
 },
-"trait_response": "Ahh, I see...",
 "zero_intro": [
-    {"text": "\nI think you'll fit in here just fine, {name}.", "delay":  3},
-    {"text": "\nWell, It's time to get this show on the road!", "delay": 1},
-    {"text": "I need you to go out front and pick up the herb delivery for me.\n", "delay": 3}
+    {"text": "\nI think you'll fit in here just fine, {name}.", "delay":  3, "type": "say"},
+    {"text": "\nWell, It's time to get this show on the road!", "delay": 1, "type": "say"},
+    {"text": "I need you to go out front and pick up the herb delivery for me.\n", "delay": 3, "type": "say"}
 ],
 "1st_choice":[
     "A:  Look Around",
@@ -134,8 +134,8 @@
 "herbs_go": {
     "Orphan":  {
         "confident": [
-            {"text": "You swing the door to the shop open and sling the bundle down on the table.", "delay": 1},
-            {"text": ""}],
+            {"text": "You swing the door to the shop open and sling the bundle down on the table.", "delay": 1, "type": "say"},
+            {"text": "", "delay": "", "type": ""}],
         "compassionate": [{"text": "", "delay": 1}],
         "bold": [{"text": "", "delay": 1}],
         "analytical": [{"text": "", "delay": 1}]

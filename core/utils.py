@@ -36,9 +36,12 @@ def multiple_choice(**options):
         else:
             say("A curious choice... but not valid. Pick one of the available options.", 0)
 
-def read_lines(key):
+def read_lines(key, character=None):
     for line in key:
+        text = line["text"]
+        if character and "name" in character:
+            text = text.replace("{name}", character["name"])    
         if line["type"] == "say":
-            say(line["text"], line["delay"]) 
+            say(text, line["delay"]) 
         if line["type"] == "narrate":
-            narrate(line["text"], line["delay"])
+            narrate(text, line["delay"])

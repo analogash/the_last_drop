@@ -13,7 +13,7 @@ def create_character():
     say("-" * 67 + "\n")
     time.sleep(1)
 
-    read_lines(dialog["intro"]["ask_background"])
+    read_lines(dialog["intro"]["ask_background"], character)
 
     character["background"] = multiple_choice(
         A="Orphan",
@@ -22,12 +22,11 @@ def create_character():
         D="Scholar"
     )
 
-    background = character["background"]
     time.sleep(1)
 
-    say(dialog["backgrounds"][character["background"]], 3)
+    say(dialog["intro"]["backgrounds"][character["background"]].format(name=character["name"]), 3)
 
-    read_lines(dialog["ask_traits"])
+    read_lines(dialog["intro"]["ask_traits"])
     # say(dialog["intro"]["ask_traits"], 2)
     # say(dialog["intro"]["trait_options"][0])
     # say(dialog["intro"]["trait_options"][1])
@@ -42,7 +41,7 @@ def create_character():
     )
     time.sleep(1)
 
-    say(dialog["intro"]["trait_response"], 1)
+    read_lines(dialog["trait_response"])
     say(dialog["traits"][character["background"]][character["traits"][0]].format(name=name), 4)
 
     return character

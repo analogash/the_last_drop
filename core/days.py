@@ -5,7 +5,7 @@ def day_zero(character):
     with open("data/dialog.json", "r") as file:
         dialog = json.load(file)
     
-    read_lines(character, dialog["zero_intro"], say)
+    read_lines(dialog["zero_intro"], character)
 
     counter = 0
     look_list = dialog["intro_look"][character["background"]]
@@ -20,7 +20,7 @@ def day_zero(character):
             counter = (counter + 1) % len(look_list)
 
         if choice_1 is "go":
-            read_lines(character, dialog["intro_go"][character["background"]], say)
+            read_lines(character, dialog["intro_go"][character["background"]])
             break
 
     while True:
@@ -33,7 +33,7 @@ def day_zero(character):
             narrate(dialog["herbs_look"][character["background"]], 3)
 
         if choice_2 is "collect":
-            read_lines(character, dialog["herbs_collect"][character["background"]], say)
+            read_lines(character, dialog["herbs_collect"][character["background"]])
 
         if choice_2 is "go":
             break
