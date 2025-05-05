@@ -16,11 +16,11 @@ def day_zero(character):
         choice_1 = multiple_choice(A="look", B="go")
 
         if choice_1 is "look":
-            narrate(look_list[counter], 3)
+            narrate(look_list[counter]["text"])
             counter = (counter + 1) % len(look_list)
 
         if choice_1 is "go":
-            read_lines(character, dialog["intro_go"][character["background"]])
+            read_lines(dialog["intro_go"][character["background"]], character)
             break
 
     while True:
@@ -33,7 +33,7 @@ def day_zero(character):
             narrate(dialog["herbs_look"][character["background"]], 3)
 
         if choice_2 is "collect":
-            read_lines(character, dialog["herbs_collect"][character["background"]])
+            read_lines(dialog["herbs_collect"][character["background"]], character)
 
         if choice_2 is "go":
             break

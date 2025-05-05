@@ -66,7 +66,7 @@
 ],
 "intro_look": {
     "Orphan": [
-        {"text": "* A fire hazard, maybe. But at least it's warm. *\n}", "delay": 3, "type": "narrate"},
+        {"text": "* A fire hazard, maybe. But at least it's warm. *\n", "delay": 3, "type": "narrate"},
         {"text": "* Warm, but cluttered.\nA place with many stories, and not enough shelves. *\n", "delay": 3, "type": "narrate"},
         {"text": "* Doesn’t smell like damp straw or burnt boots,\nthat’s already an improvement. *\n", "delay": 3, "type": "narrate"}],
     "Forest": [
@@ -116,20 +116,21 @@
 },
 "herbs_collect": {
     "Orphan": [
-        {"text": "You lift the bundle, coarse burlap scratches your palms.", "delay": 3},
-        {"text": "\nA sprig of rosemary falls loose and you catch it midair, grinning.", "delay": 3},
-        {"text": "Still got it.", "delay": 4}],
+        {"text": "You lift the bundle, coarse burlap scratches your palms.", "delay": 3, "type": "narrate"},
+        {"text": "\nA sprig of rosemary falls loose and you catch it midair, grinning.", "delay": 3, "type": "narrate"},
+        {"text": "...", "delay": 2, "type": "narrate"},
+	{"text": "Still got it.", "delay": 4, "type": "narrate"}],
     "Forest": [
-        {"text": "You press your nose to a bunch of mint before lifting it.", "delay": 4},
-        {"text": "\nThe scent lingers like sunlight.", "delay": 3},
-        {"text": "\nYou hum softly as you work.", "delay": 3}],
+        {"text": "You press your nose to a bunch of mint before lifting it.", "delay": 4, "type": "narrate"},
+        {"text": "\nThe scent lingers like sunlight.", "delay": 3, "type": "narrate"},
+        {"text": "\nYou hum softly as you work.", "delay": 3, "type": "narrate"}],
     "Noble": [
-        {"text": "You pick up the bundle carefully, lifting as if it might crumble.", "delay": 3},
-        {"text": "\nYour hands were trained for ink and etiquette, not burlap and earth...", "delay": 4},
-        {"text": "\nbut it’s not so bad. Practicality has its own elegance.", "delay": 3}],
+        {"text": "You pick up the bundle carefully, lifting as if it might crumble.", "delay": 3, "type": "narrate"},
+        {"text": "\nYour hands were trained for ink and etiquette, not burlap and earth...", "delay": 4, "type": "narrate"},
+        {"text": "\nbut it’s not so bad. Practicality has its own elegance.", "delay": 3, "type": "narrate"}],
     "Scholar": [
-        {"text": "You pause, mid-lift, wondering how long ago these were picked.", "delay": 4},
-        {"text": "\nThe tag says yesterday, the wilted edges disagree.", "delay": 4}]
+        {"text": "You pause, mid-lift, wondering how long ago these were picked.", "delay": 4, "type": "narrate"},
+        {"text": "\nThe tag says yesterday, the wilted edges disagree.", "delay": 4, "type": "narrate"}]
 },
 "herbs_go": {
     "Orphan":  {
