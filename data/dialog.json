@@ -33,7 +33,7 @@
     "Orphan": {
         "confident": "That fire in your step tells me you’re gonna go far!",
         "compassionate": "All that hardship, yet your heart stayed soft. That’s real strength.",
-        "bold": "Life didn’t give you a path, so you made your own... with a bang, I imagine!",
+        "bold": "Life didn’t give you a path, so you made your own... with a bang, You carry the bundle back inside and make sure to place it near the I imagine!",
         "analytical": "I imagine surviving on your own teaches strategy like no book ever could."
     },
     "Forest": {
@@ -93,7 +93,7 @@
         {"text": "You see birds nesting under awnings, and bees lazily drifting past flower pots.", "delay": 3, "type": "say"},
         {"text": "\nThe herb cart smells like home; crushed mint, damp moss, and sun-warmed stems.", "delay": 3, "type": "say"},
         {"text": "\nA squirrel watches you from a rooftop like it's sizing you up.", "delay": 4, "type": "say"},
-        {"text": "You nod at it, just in case.", "delay": 3}],
+        {"text": "You nod at it, just in case.", "delay": 3, "type": "say"}],
     "Noble": [
         {"text": "You step outside and wrinkle your nose at the dust.", "delay": 2, "type": "say"},
         {"text": "\nThe cart is a jumble of crates and burlap — not a servant in sight.", "delay": 3, "type": "say"},
@@ -134,12 +134,14 @@
 },
 "herbs_go": {
     "Orphan":  {
-        "confident": [
-            {"text": "You swing the door to the shop open and sling the bundle down on the table.", "delay": 1, "type": "say"},
-            {"text": "", "delay": "", "type": ""}],
-        "compassionate": [{"text": "", "delay": 1}],
-        "bold": [{"text": "", "delay": 1}],
-        "analytical": [{"text": "", "delay": 1}]
+        "confident": 
+            {"text": "You swing the door to the shop open and sling the bundle down on the tablei, victorious.", "delay": 1, "type": "say"},
+        "compassionate": 
+	    {"text": "You push open the door with your hip and lay the bundle down softly.", "delay": 1, "type": "say"},
+        "bold": 
+            {"text": "You push the door open with kick and toss the bundle onto the table.", "delay": 1, "type": "say"},
+        "analytical": 
+            {"text": "You carry the bundle back inside and lay it down on the table near to the storage area.", "delay": 1}
     },
     "Forest":  {
         "confident": [{"text": "", "delay": 1}],
