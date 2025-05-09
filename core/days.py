@@ -15,35 +15,31 @@ def day_zero(character):
 
     # Look or Go
     while True:
-	# Print options & prompt
-        say(dialog["1st_choice"][0])
-        say(dialog["1st_choice"][1])
-        choice_1 = multiple_choice(A="look", B="go")
+	    # Prompt
+        choice_1 = multiple_choice(A="A:  Look Around", B="B:  Go Outside")
 
         # Cycle through look dialog
-        if choice_1 is "look":
+        if choice_1[1] is "A":
             narrate(look_list[counter]["text"])
             counter = (counter + 1) % len(look_list)
         
 	# Move onto go section
-        if choice_1 is "go":
+        if choice_1[0] is "B":
             read_lines(dialog["intro_go"][character["background"]], character)
             break
 
     # Look, Collect, Go 
     while True:
-        # Print options & prompt
-        say(dialog["herb_look_options"][0])
-        say(dialog["herb_look_options"][1])
-        choice_2 = multiple_choice(A="look", B="collect", C="go")
+        # Prompt
+        choice_2 = multiple_choice(A="\nA:  Look Around", B="B:  Collect Herbs", C="C:  Go Inside")
  
-        if choice_2 is "look":
+        if choice_2[1] is "A":
             narrate(dialog["herbs_look"][character["background"]], 3)
 
-        if choice_2 is "collect":
+        if choice_2[0] is "B":
             read_lines(dialog["herbs_collect"][character["background"]], character)
 
-        if choice_2 is "go":
-            break
+        if choice_2[0] is "C":
+            read_lines(dialog["herbs_go"][character["background"]][character["traits"]], character)
 
     #print(f"DEBUG: {choice_1}")

@@ -25,10 +25,26 @@ def clear_terminal():
 
 
 # Takes in options and returns choice
-# TODO: Print options here, remove and move options dynamically.
 def multiple_choice(**options):
     valid_choices = {key.upper(): value for key, value in options.items()}
+    option_values = list(valid_choices.values())
+    def is_long(value): 
+        return len(value) > 40
+
     while True:
+        print()
+        if any(is_long(v) for v in option_values):
+            # Print one per line
+            for value in option_values:
+                print(value)
+        else:
+            # Print two per line
+            for i in range(0, len(option_values), 2):
+                line = option_values[i]
+                if i + 1 < len(option_values):
+                    line += "    " + option_values[i + 1]
+                print(line)
+
         say("\n" + "-" * 67)
         choice = input("> ").strip().upper()
         say("-" * 67 + "\n")

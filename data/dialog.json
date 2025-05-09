@@ -12,21 +12,16 @@
         {"text": "...", "delay": 2, "type": "say"},
         {"text": "Truth be told, I could really use an extra pair of hands around here.", "delay": 3, "type": "say"},
         {"text": "\nI am glad to see you made it here safe!", "delay": 3, "type": "say"},
-        {"text": "\nSo {name}, tell me a little about your past. I heard you were a:\n", "delay": 2, "type": "say"},
-        {"text": "A:  Wandering Orphan    C:  Noble Dropout", "delay": 0, "type": "say"},
-        {"text": "B:  Forest Child        D:  Quiet Scholar", "delay": 0, "type": "say"}],
-"backgrounds": {
-        "Orphan": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
-        "Forest": "How wonderful! Nature can teach us more than any book.",
-        "Noble": "A noble background, and yet here you are to help me. I am honored!",
-        "Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
-    },
-"ask_traits": [
-    {"text": "\nI am curious, though - what traits make you think you'll be a fit here?\n", "delay": 2, "type": "say"},
-    {"text": "A:  Confident, decisive, and inspiring.", "delay": 0, "type": "say"},
-    {"text": "B:  Compassionate, nurturing, and selfless.", "delay": 0, "type": "say"},
-    {"text": "C:  Bold, independent, and disruptive.", "delay": 0, "type": "say"},
-    {"text": "D:  Analytical, wise, and strategic.", "delay": 0, "type": "say"}]
+        {"text": "\nSo {name}, tell me a little about your past. I heard you were a:", "delay": 2, "type": "say"}],
+	"backgrounds": {
+        	"Orphan": "That must’ve been a tough journey, {name}. I bet you developed a sharp sense of intuition along the way.",
+        	"Forest": "How wonderful! Nature can teach us more than any book.",
+        	"Noble": "A noble background, and yet here you are to help me. I am honored!",
+       		"Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
+    	},
+	"ask_traits": [
+    		{"text": "\nI am curious, though - what traits make you think you'll be a fit here?", "delay": 2, "type": "say"}
+	]
 },
 "trait_response": [{"text": "Ahh, I see...", "delay": 1, "type": "say"}],
 "traits": {
@@ -58,11 +53,7 @@
 "zero_intro": [
     {"text": "\nI think you'll fit in here just fine, {name}.", "delay":  3, "type": "say"},
     {"text": "\nWell, It's time to get this show on the road!", "delay": 1, "type": "say"},
-    {"text": "I need you to go out front and pick up the herb delivery for me.\n", "delay": 3, "type": "say"}
-],
-"1st_choice":[
-    "A:  Look Around",
-    "B:  Go outside"
+    {"text": "I need you to go out front and pick up the herb delivery for me.", "delay": 3, "type": "say"}
 ],
 "intro_look": {
     "Orphan": [
@@ -134,14 +125,16 @@
 },
 "herbs_go": {
     "Orphan":  {
-        "confident": 
-            {"text": "You swing the door to the shop open and sling the bundle down on the tablei, victorious.", "delay": 1, "type": "say"},
+        "confident": [
+            {"text": "You push open the door with your shoulder and sling the bundle onto the counter.", "delay": 1, "type": "say"},
+            {"text": "The bundle lands with a satisfying thump. Not a leaf out of place.", "delay": 1, "type": "say"},
+            {"text": "Ah, thank you so much!", "delay": 1, "type": "say"}],
         "compassionate": 
-	    {"text": "You push open the door with your hip and lay the bundle down softly.", "delay": 1, "type": "say"},
+	    [{"text": "You push open the door with your hip and lay the bundle down softly.", "delay": 1, "type": "say"}],
         "bold": 
-            {"text": "You push the door open with kick and toss the bundle onto the table.", "delay": 1, "type": "say"},
+            [{"text": "You push the door open with kick and toss the bundle onto the table.", "delay": 1, "type": "say"}],
         "analytical": 
-            {"text": "You carry the bundle back inside and lay it down on the table near to the storage area.", "delay": 1}
+            [{"text": "You carry the bundle back inside and lay it down on the table near to the storage area.", "delay": 1}]
     },
     "Forest":  {
         "confident": [{"text": "", "delay": 1}],
