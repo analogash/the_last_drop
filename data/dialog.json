@@ -57,43 +57,43 @@
 ],
 "intro_look": {
     "Orphan": [
-        {"text": "* A fire hazard, maybe. But at least it's warm. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* Warm, but cluttered.\nA place with many stories, and not enough shelves. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* Doesn’t smell like damp straw or burnt boots,\nthat’s already an improvement. *\n", "delay": 3, "type": "narrate"}],
+        {"text": "* A fire hazard, maybe. But at least it's warm. *", "delay": 3, "type": "narrate"},
+        {"text": "* Warm, but cluttered.\nA place with many stories, and not enough shelves. *", "delay": 3, "type": "narrate"},
+        {"text": "* Doesn’t smell like damp straw or burnt boots,\nthat’s already an improvement. *", "delay": 3, "type": "narrate"}],
     "Forest": [
-        {"text": "* It’s chaos — but it smells like lavender,\nhoney, and good intentions. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* There’s a little sprig of lavender in that jar. \nIt’s trying to escape. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* Herbs strung from the ceiling like vines\ncosy, in their own droopy way. *\n", "delay": 3, "type": "narrate"}],
+        {"text": "* It’s chaos — but it smells like lavender,\nhoney, and good intentions. *", "delay": 3, "type": "narrate"},
+        {"text": "* There’s a little sprig of lavender in that jar. \nIt’s trying to escape. *", "delay": 3, "type": "narrate"},
+        {"text": "* Herbs strung from the ceiling like vines\ncosy, in their own droopy way. *", "delay": 3, "type": "narrate"}],
     "Noble": [
-        {"text": "* No symmetry, no staff, no polish...\nsomehow, you don’t hate it. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* A little elbow grease and this place could shine...\nnot that it needs to. *\n", "delay": 3, "type": "narrate"},
-        {"text": "* A disaster of a layout,\nbut I suppose that’s part of the charm. *\n", "delay": 3, "type": "narrate"}],
+        {"text": "* No symmetry, no staff, no polish...\nsomehow, you don’t hate it. *", "delay": 3, "type": "narrate"},
+        {"text": "* A little elbow grease and this place could shine...\nnot that it needs to. *", "delay": 3, "type": "narrate"},
+        {"text": "* A disaster of a layout,\nbut I suppose that’s part of the charm. *", "delay": 3, "type": "narrate"}],
     "Scholar": [
-        {"text": "* If you spent a year here,\nyou still would not know what’s in half these bottles. *\n", "delay": 4, "type": "narrate"},
-        {"text": "* So many scrolls. So many questions.\nWhere do you even start? *\n", "delay": 3, "type": "narrate"},
-        {"text": "* It’s a mess — but it’s a mess that speaks to you. *\n", "delay": 2, "type": "narrate"}]
+        {"text": "* If you spent a year here,\nyou still would not know what’s in half these bottles. *", "delay": 4, "type": "narrate"},
+        {"text": "* So many scrolls. So many questions.\nWhere do you even start? *", "delay": 3, "type": "narrate"},
+        {"text": "* It’s a mess — but it’s a mess that speaks to you. *", "delay": 2, "type": "narrate"}]
 },
 "intro_go": {
     "Orphan": [
-        {"text": "The cobblestones are cracked and uneven, the kind you learn to step lightly on.", "delay": 2, "type": "say"},
-        {"text": "\nThe street out front is quiet, but your eyes still scan it out of habit, \n  looking for places to hide or slip away.", "delay": 3, "type": "say"},
-        {"text": "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.", "delay": 3, "type": "say"},
-        {"text": "No one's guarding it. Strange, how people just leave things out here.", "delay": 2, "type": "say"}],
+        {"text": "* The cobblestones are cracked and uneven, the kind you learn to step lightly on.", "delay": 2, "type": "narrate"},
+        {"text": "\nThe street out front is quiet, but your eyes still scan it out of habit, \n  looking for places to hide or slip away.", "delay": 3, "type": "narrate"},
+        {"text": "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.", "delay": 3, "type": "narrate"},
+        {"text": "\nNo one's guarding it. Strange, how people just leave things out here. *", "delay": 2, "type": "narrate"}],
     "Forest": [
-        {"text": "The air outside is drier than the woods you're used to, but there's still life humming in it.", "delay": 4, "type": "say"},
-        {"text": "You see birds nesting under awnings, and bees lazily drifting past flower pots.", "delay": 3, "type": "say"},
-        {"text": "\nThe herb cart smells like home; crushed mint, damp moss, and sun-warmed stems.", "delay": 3, "type": "say"},
-        {"text": "\nA squirrel watches you from a rooftop like it's sizing you up.", "delay": 4, "type": "say"},
-        {"text": "You nod at it, just in case.", "delay": 3, "type": "say"}],
+        {"text": "* The air outside is drier than the woods you're used to, but there's still \nlife humming in it.", "delay": 4, "type": "narrate"},
+        {"text": "\nYou see birds nesting under awnings, and bees lazily drifting past flower pots.", "delay": 3, "type": "narrate"},
+        {"text": "\nThe herb cart smells like home; crushed mint, damp moss, and sun-warmed stems.", "delay": 3, "type": "narrate"},
+        {"text": "\nA squirrel watches you from a rooftop like it's sizing you up.", "delay": 4, "type": "narrate"},
+        {"text": "You nod at it, just in case. *", "delay": 4, "type": "narrate"}],
     "Noble": [
-        {"text": "You step outside and wrinkle your nose at the dust.", "delay": 2, "type": "say"},
-        {"text": "\nThe cart is a jumble of crates and burlap — not a servant in sight.", "delay": 3, "type": "say"},
-        {"text": "Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos.", "delay": 3, "type": "say"},
-        {"text": "\nYou pause, almost amused. This is your life now? You could get used to it.", "delay": 4, "type": "say"}],
+        {"text": "* You step outside and wrinkle your nose at the dust.", "delay": 2, "type": "narrate"},
+        {"text": "\nThe cart is a jumble of crates and burlap — not a servant in sight.", "delay": 3, "type": "narrate"},
+        {"text": "Still, the herbs are fresh, the arrangement surprisingly elegant in its chaos.", "delay": 3, "type": "narrate"},
+        {"text": "\nYou pause, almost amused. This is your life now? You could get used to it. *", "delay": 4, "type": "narrate"}],
     "Scholar": [
-        {"text": "The smell of chamomile and crushed sage wafts from the cart before you even reach it.", "delay": 2, "type": "say"},
-        {"text": "Labels curl at the corners, hastily inked. You make a mental note to categorize them later.", "delay": 3, "type": "say"},
-        {"text": "\nThe world outside the shop is quieter than expected — ripe with small details.", "delay": 3, "type": "say"}]
+        {"text": "* The smell of chamomile and crushed sage wafts from the cart before you even reach it.", "delay": 2, "type": "narrate"},
+        {"text": "Labels curl at the corners, hastily inked. You make a mental note to categorize them later.", "delay": 3, "type": "narrate"},
+        {"text": "\nThe world outside the shop is quieter than expected — ripe with small details. *", "delay": 3, "type": "narrate"}]
 },
 "herb_look_options" : [
     "\nA:  Look Around",
@@ -110,11 +110,11 @@
         {"text": "* You lift the bundle, coarse burlap scratches your palms. *", "delay": 3, "type": "narrate"},
         {"text": "\n* A sprig of rosemary falls loose and you catch it midair, grinning. *", "delay": 3, "type": "narrate"},
         {"text": "...", "delay": 1, "type": "narrate"},
-	{"text": "Still got it.", "delay": 4, "type": "narrate"}],
+	    {"text": "Still got it.", "delay": 4, "type": "narrate"}],
     "Forest": [
-        {"text": "* You press your nose to a bunch of mint before lifting it. *", "delay": 4, "type": "narrate"},
-        {"text": "\n* The scent lingers like sunlight. *", "delay": 3, "type": "narrate"},
-        {"text": "\n* You hum softly as you work. *", "delay": 3, "type": "narrate"}],
+        {"text": "* You press your nose to a bunch of mint before lifting it.", "delay": 4, "type": "narrate"},
+        {"text": "\nThe scent lingers like sunlight.", "delay": 3, "type": "narrate"},
+        {"text": "\nYou hum softly as you work. *", "delay": 3, "type": "narrate"}],
     "Noble": [
         {"text": "You pick up the bundle carefully, lifting as if it might crumble.", "delay": 3, "type": "narrate"},
         {"text": "\nYour hands were trained for ink and etiquette, not burlap and earth...", "delay": 4, "type": "narrate"},
@@ -123,36 +123,79 @@
         {"text": "You pause, mid-lift, wondering how long ago these were picked.", "delay": 4, "type": "narrate"},
         {"text": "\nThe tag says yesterday, the wilted edges disagree.", "delay": 4, "type": "narrate"}]
 },
+"herbs_go_bad": [
+    {"text": "* You turn around and head back into the shop. *", "delay": 3, "type": "narrate"},
+    {"text": "\nOh hello {name}, aren't you forgetting something?", "delay": 3, "type": "say"},
+    {"text": "\n * You let out a sigh and return outside. *", "delay": 3, "type": "narrate"}
+],
 "herbs_go": {
     "Orphan":  {
         "confident": [
-            {"text": "You push open the door with your shoulder and sling the bundle onto the counter.", "delay": 1, "type": "say"},
-            {"text": "The bundle lands with a satisfying thump. Not a leaf out of place.", "delay": 1, "type": "say"},
-            {"text": "Ah, thank you so much!", "delay": 1, "type": "say"}],
-        "compassionate": 
-	    [{"text": "You push open the door with your hip and lay the bundle down softly.", "delay": 1, "type": "say"}],
-        "bold": 
-            [{"text": "You push the door open with kick and toss the bundle onto the table.", "delay": 1, "type": "say"}],
-        "analytical": 
-            [{"text": "You carry the bundle back inside and lay it down on the table near to the storage area.", "delay": 1}]
+            {"text": "* You push open the door with your shoulder and sling the bundle onto the counter.", "delay": 3, "type": "narrate"},
+            {"text": "The bundle lands with a satisfying thump, not a leaf out of place. *", "delay": 2, "type": "narrate"},
+            {"text": "\nLook at you, in and out in no time. Hah! I appreciate it.", "delay": 3, "type": "say"}],
+        "compassionate": [
+	        {"text": "* You push open the door with your hip and lay the bundle down softly. *", "delay": 3, "type": "narrate"},
+            {"text": "\nOh, thank you dear. I appeciate the gentle touch.", "delay": 3, "type": "say"}],
+        "bold": [ 
+            {"text": "* You kick the door open and sling the bundle down onto the table. *", "delay": 3, "type": "narrate"},
+            {"text": "\nHa! Making an entrance, are we? I love the flair!", "delay": 3, "type": "say"}],
+        "analytical": [ 
+            {"text": "* You slip through the door carefully place the herbs down. *", "delay": 3, "type": "narrate"},
+            {"text": "\nAhh, thank you! I appreciate it, {name}.", "delay": 3, "type": "say"}]
     },
     "Forest":  {
-        "confident": [{"text": "", "delay": 1}],
-        "compassionate": [{"text": "", "delay": 1}],
-        "bold": [{"text": "", "delay": 1}],
-        "analytical": [{"text": "", "delay": 1}]
+        "confident": [
+            {"text": "* You swing open the door with a flourish, arms full with the fragrant bundle. *", "delay": 3, "type": "narrate"},
+            {"text": "\n Oho! You sure move quick, I appreciate it.", "delay": 3, "type": "say"}],
+        "compassionate": [
+            {"text": "* You step through the door, being careful not to harm the herbs.", "delay": 3, "type": "narrate"},
+            {"text": "A sprig tumbles loose; you catch it and tuck it back in *", "delay": 3, "type": "narrate"},
+            {"text": "\nWhy thank you! I'm happy to have someone as mindful as yourself.", "delay": 3, "type": "say"}],
+        "bold": [
+            {"text": "* You push open the door with your foot and stroll in.", "delay": 3, "type": "narrate"},
+            {"text": "You sling the bundle down onto the counter. *", "delay": 3, "type": "narrate"},
+            {"text": "\n My, you're a wild one! Good. This place needs a little shaking up.", "delay": 4, "type": "say"}],
+        "analytical": [
+            {"text": "* You enter with silent focus, making note of which herbs may require immediate attention. *", "delay": 3, "type": "narrate"},
+            {"text": "\nMy, my... you've got an eye on you. I appreciate the attention to detail.", "delay": 4, "type": "say"}]
     },
     "Noble":  {
-        "confident": [{"text": "", "delay": 1}],
-        "compassionate": [{"text": "", "delay": 1}],
-        "bold": [{"text": "", "delay": 1}],
-        "analytical": [{"text": "", "delay": 1}]
+        "confident": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "compassionate": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "bold": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "analytical": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}]
+
     },
     "Scholar":  {
-        "confident": [{"text": "", "delay": 1}],
-        "compassionate": [{"text": "", "delay": 1}],
-        "bold": [{"text": "", "delay": 1}],
-        "analytical": [{"text": "", "delay": 1}]
+        "confident": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "compassionate": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "bold": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}],
+        "analytical": [
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""},
+            {"text": "", "delay": 1, "type": ""}] 
     }
 },
 

@@ -16,30 +16,40 @@ def day_zero(character):
     # Look or Go
     while True:
 	    # Prompt
-        choice_1 = multiple_choice(A="A:  Look Around", B="B:  Go Outside")
+        choice = multiple_choice(A="A:  Look Around", B="B:  Go Outside")
 
         # Cycle through look dialog
-        if choice_1[1] is "A":
+        if choice[0] is "A":
             narrate(look_list[counter]["text"])
             counter = (counter + 1) % len(look_list)
         
 	# Move onto go section
-        if choice_1[0] is "B":
+        if choice[0] is "B":
             read_lines(dialog["intro_go"][character["background"]], character)
             break
 
     # Look, Collect, Go 
     while True:
         # Prompt
-        choice_2 = multiple_choice(A="\nA:  Look Around", B="B:  Collect Herbs", C="C:  Go Inside")
- 
-        if choice_2[1] is "A":
+        choice = multiple_choice(A="A:  Look Around", B="B:  Collect Herbs", C="C:  Go Inside")
+        collected = False
+         
+        if choice[1] is "A":
             narrate(dialog["herbs_look"][character["background"]], 3)
 
-        if choice_2[0] is "B":
+        if choice[0] is "B":
+            collected = True
             read_lines(dialog["herbs_collect"][character["background"]], character)
+            while True:
+                choice = multiple_choice(A="A:  Look Around", B="B:  Go Inside")
+                if choice[0] is "A":
+                    narrate(dialog["herbs_look"][character["background"]], 3)
+                if choice[0] is "B":
+                    read_lines(dialog["herbs_go"][character["background"]][character["traits"]], character)        
+                    break
+        if collected:
+            break
 
-        if choice_2[0] is "C":
-            read_lines(dialog["herbs_go"][character["background"]][character["traits"]], character)
+        if choice[0] is "C":
+            read_lines(dialog["herbs_go_bad"], character)
 
-    #print(f"DEBUG: {choice_1}")

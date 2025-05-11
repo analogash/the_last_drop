@@ -6,7 +6,8 @@ def main():
     clear_terminal()
     say("========================== The Last Drop ==========================\n", 2)
 
-    #test_character = {"rep": 0, "gold": 0, "name": "Goku", "background": "Orphan", "traits": "Bold"}
+    #test_character = {"rep": 0, "gold": 0, "name": "Goku", 
+    #    "background": "Forest", "traits": "compassionate"}
     character = create_character()
     day_zero(character)
     
