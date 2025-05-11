@@ -4,7 +4,7 @@ from core.days import day_zero
 
 def main():
     clear_terminal()
-    say("========================== The Last Drop ==========================\n", 2)
+    say("==================================== The Last Drop ====================================\n", 2)
 
     #test_character = {"rep": 0, "gold": 0, "name": "Goku", 
     #    "background": "Forest", "traits": "compassionate"}

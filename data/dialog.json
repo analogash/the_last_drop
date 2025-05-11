@@ -20,7 +20,7 @@
        		"Scholar": "A scholar, hmm? I’m sure you’ll find the study of potions fascinating."
     	},
 	"ask_traits": [
-    		{"text": "\nI am curious, though - what traits make you think you'll be a fit here?", "delay": 2, "type": "say"}
+    		{"text": "\nI am curious though, what traits make you think you'll be a fit here?", "delay": 2, "type": "say"}
 	]
 },
 "trait_response": [{"text": "Ahh, I see...", "delay": 1, "type": "say"}],
@@ -35,7 +35,7 @@
         "confident": "The wild raised you well, steady hands and a fearless heart!",
         "compassionate": "You carry the gentleness of moss and the patience of trees.",
         "bold": "Forest-born and rule-averse, you’re as wild as the wind through the leaves.",
-        "analytical": "The patterns you can find in the woods are truly inspiring."
+        "analytical": "The patterns you can find in nature are truly inspiring."
     },
     "Noble": {
         "confident": "Leaving comfort behind takes guts — seems you didn’t just inherit confidence, you earned it.",
@@ -80,10 +80,10 @@
         {"text": "\nA cart sits by the gate, piled high with herbs wrapped in rough burlap.", "delay": 3, "type": "narrate"},
         {"text": "\nNo one's guarding it. Strange, how people just leave things out here. *", "delay": 2, "type": "narrate"}],
     "Forest": [
-        {"text": "* The air outside is drier than the woods you're used to, but there's still \nlife humming in it.", "delay": 4, "type": "narrate"},
-        {"text": "\nYou see birds nesting under awnings, and bees lazily drifting past flower pots.", "delay": 3, "type": "narrate"},
-        {"text": "\nThe herb cart smells like home; crushed mint, damp moss, and sun-warmed stems.", "delay": 3, "type": "narrate"},
-        {"text": "\nA squirrel watches you from a rooftop like it's sizing you up.", "delay": 4, "type": "narrate"},
+        {"text": "* The air outside is drier than the woods you're used to, but there's still \nlife humming in it. *", "delay": 4, "type": "narrate"},
+        {"text": "\n* You see birds nesting under awnings, and bees lazily drifting past flower pots. *", "delay": 3, "type": "narrate"},
+        {"text": "\n* The herb cart smells like home; crushed mint, damp moss, and sun-warmed stems. *", "delay": 3, "type": "narrate"},
+        {"text": "\n* A squirrel watches you from a rooftop like it's sizing you up.", "delay": 4, "type": "narrate"},
         {"text": "You nod at it, just in case. *", "delay": 4, "type": "narrate"}],
     "Noble": [
         {"text": "* You step outside and wrinkle your nose at the dust.", "delay": 2, "type": "narrate"},
@@ -118,7 +118,7 @@
     "Noble": [
         {"text": "You pick up the bundle carefully, lifting as if it might crumble.", "delay": 3, "type": "narrate"},
         {"text": "\nYour hands were trained for ink and etiquette, not burlap and earth...", "delay": 4, "type": "narrate"},
-        {"text": "\nbut it’s not so bad. Practicality has its own elegance.", "delay": 3, "type": "narrate"}],
+        {"text": "\nIt’s not so bad. Practicality has its own elegance.", "delay": 3, "type": "narrate"}],
     "Scholar": [
         {"text": "You pause, mid-lift, wondering how long ago these were picked.", "delay": 4, "type": "narrate"},
         {"text": "\nThe tag says yesterday, the wilted edges disagree.", "delay": 4, "type": "narrate"}]
@@ -141,7 +141,7 @@
             {"text": "* You kick the door open and sling the bundle down onto the table. *", "delay": 3, "type": "narrate"},
             {"text": "\nHa! Making an entrance, are we? I love the flair!", "delay": 3, "type": "say"}],
         "analytical": [ 
-            {"text": "* You slip through the door carefully place the herbs down. *", "delay": 3, "type": "narrate"},
+            {"text": "* You slip through the door and carefully place the herbs down. *", "delay": 3, "type": "narrate"},
             {"text": "\nAhh, thank you! I appreciate it, {name}.", "delay": 3, "type": "say"}]
     },
     "Forest":  {

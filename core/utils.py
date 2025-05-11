@@ -9,7 +9,7 @@ def say(text, delay=0):
 
 # Say the thing  * with style *
 def narrate(text, delay=0):
-    width = 67
+    width = 87
     lines = text.split("\n")
 
     for line in lines:
@@ -45,9 +45,9 @@ def multiple_choice(**options):
                     line += "    " + option_values[i + 1]
                 print(line)
 
-        say("\n" + "-" * 67)
+        say("\n" + "-" * 87)
         choice = input("> ").strip().upper()
-        say("-" * 67 + "\n")
+        say("-" * 87 + "\n")
 
         if choice in valid_choices:
             return valid_choices[choice]

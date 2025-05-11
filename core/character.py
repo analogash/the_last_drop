@@ -12,9 +12,9 @@ def create_character():
     read_lines(dialog["intro"]["hello_world"])
     
     # Prompt name
-    name = input("\n" + "-" * 67 + "\n> ")
+    name = input("\n" + "-" * 87 + "\n> ")
     character["name"] = name
-    say("-" * 67 + "\n")
+    say("-" * 87 + "\n")
     time.sleep(1)
     
     # Ask background
